@@ -1,0 +1,85 @@
+.container{
+    text-align: center;
+}
+
+.item-1{
+    margin: 0 auto;
+}
+
+.item-2{
+    margin: 0 auto;
+}
+
+.item-3{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item-4{
+    display: inline-block;
+}
+
+.form{
+    margin: 0 auto;
+}
+
+#logout{
+    background-color: rgb(240, 128, 128);
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin: 1%;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+#logout:hover {
+    background-color: rgb(238, 94, 94);
+    color: white;
+}
+
+body {
+    background-color: lightcyan;
+    background-image: url(../img/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+#scores{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+#startButton {
+    background-color: rgb(81, 209, 81);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin: 1%;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background-color: rgb(45, 170, 45);
+    color: white;
+}
+

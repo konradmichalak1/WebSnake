@@ -1,0 +1,18 @@
+{
+    "name": "snake",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "Konrad",
+    "contributors": [],
+    "dependencies": {
+        "body-parser": "^1.15.0",
+        "cookie-parser": "^1.4.3",
+        "socket.io": "^2.1.1"
+    }
+}

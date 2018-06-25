@@ -1,0 +1,44 @@
+<html>
+    
+<head>
+  <title>Logowanie</title>
+  <link href="public/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="login-page">
+        <h1> Welcome to WebSnake! </h1>
+        <div class="form">
+            <form class="register-form" method="POST" action="/send">
+                <h3>Register</h3>
+                <input type="text" name="username" placeholder="username"/>
+                <input type="password" name="password" placeholder="password"/>
+                <input type="text" name="email" placeholder="e-mail"/>
+                <button type="submit"> Register</button>
+                <p class="message"> Already registered? <a href="#">Login</a> </p>
+            
+            </form>
+
+            <form class="login-form" method="POST" action="/play">
+                <h3>Log in</h3>
+                <input type="text" name="login_username" placeholder="username"/>
+                <input type="password" name="login_password" placeholder="password"/>
+                <button> login</button>
+                <p class="message">Not registered? <a href="#"> Register</a> </p>
+                
+            </form>
+        </div>
+        
+    </div>
+    
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <script> 
+        $('.message a').click(function(){
+            $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+        });
+    </script>
+
+    
+</body>
+
+</html>

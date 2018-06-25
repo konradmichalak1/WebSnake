@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="public/css/snake_style.css">
+</head>
+
+<body onunload="wyloguj()" onLoad="zaloguj()">
+    
+<div class="container">
+    <div class="item-1">
+        <p>WebSnake</p>
+    </div>
+    <div class="item-2">
+        <button id="startButton">click to join</button>
+    </div>
+    <div class="item-3">
+        <canvas id="mainboard"></canvas>
+    </div>
+    <div class="item-4">
+        <table id="scores" border=2> </table>
+    </div>
+    <div class="form">
+            <form class="register-form" method="GET" action="/logout">
+                <button id='logout' onclick="wyloguj()" >logout</button>
+            </form>
+    </div>
+</div>
+
+    
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script src="public/js/params.js"></script>
+  <script src="public/js/drawmodule.js"></script>
+  <script src="public/js/dbcontroller.js"></script>
+  <script src="public/js/snake.js"></script>
+</body>
+
+</html>
